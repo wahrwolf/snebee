@@ -1,0 +1,12 @@
+Heyho,
+I need some help with a coding project.
+I want to write a server that can do the following:
+- receive DNS requests
+- hold DHCP like database with hostname, public key, lease time and IP Adresse
+- update a wireguard config file
+
+A client should send a DNS lookup request with its own hostname.
+The server should lookup the clients hostname and return its ip adress if it exist or generate a new one.
+After the database was changed, the server should update the wireguard config file
+
+Can you help me with some skeleton code in python?
